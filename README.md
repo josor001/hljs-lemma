@@ -13,7 +13,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" src="/path/to/hljs-lemma.min.js"></script>
+<script type="text/javascript" src="/path/to/lemma.min.js"></script>
 <script type="text/javascript">
   hljs.highlightAll();
 </script>
@@ -33,9 +33,9 @@ If you're using Node / Webpack / Rollup / Browserify, etc, simply require the la
 
 ```javascript
 var hljs = require('highlight.js');
-var hljsRobotsTxt = require('lemma');
+var hljsLemma = require('lemma');
 
-hljs.registerLanguage("lemma", hljsRobotsTxt);
+hljs.registerLanguage("lemma", hljsLemma);
 hljs.highlightAll();
 ```
 
@@ -47,15 +47,9 @@ for details.
 
 ### Author
 
-Thomas LÉVEIL <thomasleveil@gmail.com>
-
-### Maintainer
-
-Josh Goebel <hello@joshgoebel.com>
-
+Jonas Sorgalla <jonas.sorgalla@fh-dortmund.de>
 
 ## Links
-
 - The official site for the Highlight.js library is <https://highlightjs.org/>.
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
 - Learn more about robots.txt: <https://support.google.com/webmasters/answer/6062608?hl=en>

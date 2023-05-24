@@ -5,8 +5,7 @@ Description: Provides highlighting for models written in the textual modeling la
 Website: https://github.com/SeelabFhdo/lemma
 */
 
-/** @type LanguageFn */
-function lemma(hljs) {
+module.exports = function lemma(hljs) {
 
   const KEYWORDS = [
     "import",
@@ -131,5 +130,3 @@ function lemma(hljs) {
     ]
   };
 }
-
-module.exports = lemma;
