@@ -2,11 +2,16 @@
   "name": "lemma",
   "version": "1.0.0",
   "description": "Highlight.js extension for the LEMMA languages.",
-  "main": "index.js",
+  "main": "src/languages/lemma.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "LEMMA",
+    "Microservice Modeling",
+    "hljs",
+    "highlightjs",
+    "highlight.js"],
   "author": "Jonas Sorgalla",
   "license": "MIT"
 }
