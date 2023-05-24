@@ -1,10 +1,10 @@
-# HLJS-LEMMA - a language grammar for highlight.js
+# HLJS-LEMMA - a language module for highlight.js
 
 ![license](https://badgen.net/badge/license/MIT/blue)
 
 ## Disclaimer
 
-This highlight.js module is not officially released and currently only a prototype. It lacks documentation and reasonable test cases, shortcomings that we will address in the future before we want to put the module as PR.
+This highlight.js module is not officially released and currently only a prototype. It lacks documentation and reasonable test cases, shortcomings that we will address in the future before we want to put the module as PR to the official highlightjs project.
 
 Currently, all modeling languages that the LEMMA ecosystem includes are described here in one module. We intend to change this in the future. 
 
