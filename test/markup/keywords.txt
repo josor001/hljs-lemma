@@ -1,0 +1,9 @@
+//This is a comment
+/* this also */
+context ChargingStationManagement<aggregate>{
+    structure ParkingArea {
+        long ownerId,
+        string name,
+        int parkingSpaceCount
+    }
+}

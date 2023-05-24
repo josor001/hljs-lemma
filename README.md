@@ -1,7 +1,12 @@
 # HLJS-LEMMA - a language grammar for highlight.js
 
-![version](https://badgen.net/npm/v/highlightjs-robots-txt) ![license](https://badgen.net/badge/license/MIT/blue)
-![install size](https://badgen.net/packagephobia/install/highlightjs-robots-txt) ![minified size](https://badgen.net/bundlephobia/min/highlightjs-robots-txt)
+![license](https://badgen.net/badge/license/MIT/blue)
+
+## Disclaimer
+
+This highlight.js module is not officially released and currently only a prototype. It lacks documentation and reasonable test cases, shortcomings that we will address in the future before we want to put the module as PR.
+
+Currently, all modeling languages that the LEMMA ecosystem includes are described here in one module. We intend to change this in the future. 
 
 ## Usage
 
@@ -18,15 +23,6 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
   hljs.highlightAll();
 </script>
 ```
-<!-- UNCOMMENT BECAUSE NOT DISTRIBUTED...YET ;-) 
-### Using directly from the UNPKG CDN
-
-```html
-<script type="text/javascript"
-  src="https://unpkg.com/highlightjs-robots-txt@0.9.1/dist/robots-txt.min.js"></script>
-```
-- More info: <https://unpkg.com> -->
-
 ### With Node or another build system
 
 If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language module, then register it with Highlight.js.
@@ -39,10 +35,9 @@ hljs.registerLanguage("lemma", hljsLemma);
 hljs.highlightAll();
 ```
 
-
 ## License
 
-Highlight.js is released under the MIT License. See [LICENSE][1] file
+Highlight.js as well as this module are released under the MIT License. See the LICENSE file
 for details.
 
 ### Author
@@ -52,6 +47,5 @@ Jonas Sorgalla <jonas.sorgalla@fh-dortmund.de>
 ## Links
 - The official site for the Highlight.js library is <https://highlightjs.org/>.
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
-- Learn more about robots.txt: <https://support.google.com/webmasters/answer/6062608?hl=en>
+- Learn more about LEMMA: <https://github.com/SeelabFhdo/lemma>
 
-[1]: https://github.com/highlightjs/highlightjs-robots-txt/blob/master/LICENSE

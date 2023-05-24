@@ -1,0 +1,9 @@
+<span class="hljs-comment">//This is a comment</span>
+<span class="hljs-comment">/* this also */</span>
+<span class="hljs-keyword">context</span> <span class="hljs-title">ChargingStationManagement</span><span class="hljs-symbol">&lt;aggregate&gt;</span>{
+    <span class="hljs-keyword">structure</span> <span class="hljs-title">ParkingArea</span> {
+        <span class="hljs-type">long</span> ownerId,
+        <span class="hljs-type">string</span> name,
+        <span class="hljs-type">int</span> parkingSpaceCount
+    }
+}
