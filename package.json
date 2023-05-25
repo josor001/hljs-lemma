@@ -1,17 +1,17 @@
 {
   "name": "hljs-lemma",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "Highlight.js extension for the LEMMA language.",
   "main": "src/languages/lemma.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "unpkg": "dist/lemma.min.js",
   "keywords": [
     "LEMMA",
+    "Microservices",
     "Microservice Modeling",
     "hljs",
     "highlightjs",
     "highlight.js"],
-  "author": "Jonas Sorgalla",
-  "license": "MIT"
+  "author": "Jonas Sorgalla <jonas.sorgalla@fh-dortmund.de",
+  "license": "MIT",
+  "repository": "https://github.com/josor001/hljs-lemma"
 }
