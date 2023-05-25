@@ -1,7 +1,7 @@
 {
-  "name": "lemma",
+  "name": "hljs-lemma",
   "version": "1.0.0",
-  "description": "Highlight.js extension for the LEMMA languages.",
+  "description": "Highlight.js extension for the LEMMA language.",
   "main": "src/languages/lemma.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
