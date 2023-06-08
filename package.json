@@ -1,6 +1,6 @@
 {
   "name": "hljs-lemma",
-  "version": "1.0.1-beta",
+  "version": "1.0.2-beta",
   "description": "Highlight.js extension for the LEMMA language.",
   "main": "src/languages/lemma.js",
   "unpkg": "dist/lemma.min.js",
