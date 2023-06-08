@@ -161,7 +161,7 @@ module.exports = function lemma(hljs) {
 
   return {
     name: 'lemma',
-    illegal: /[!@#$^&',?+~`|:]/,
+    illegal: /[!&?+~`]/,
     case_insensitive: true,
     keywords: KEYWORDS,
     contains: [
