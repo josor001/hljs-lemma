@@ -16,5 +16,8 @@
     "highlight.js"],
   "author": "Jonas Sorgalla <jonas.sorgalla@fh-dortmund.de",
   "license": "MIT",
-  "repository": "https://github.com/josor001/hljs-lemma"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josor001/hljs-lemma.git"
+  }
 }
